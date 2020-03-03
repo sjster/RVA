@@ -7,11 +7,11 @@
 
    ansible-playbook -i ./hosts cloud_h2o.yml
 
-   This reads from the file jupyter.conf to setup a JupyterLab server, change ports as appropriate in this file but make sure that the relevant ports are also open on the instance. Also, set a password for the JupyterLab instance in the jupyter.conf file.
+   This reads from the file jupyter.conf to setup a JupyterLab server, **change ports as appropriate in this file but make sure that the relevant ports are also open on the instance**. Also, **set a password for the JupyterLab instance in the jupyter.conf file**.
 
 ## H2O
 
-This installs a H2O instance into a conda environment named keras_env. This has Jupyterlab installed and is accessible at port 80. 
+This ansible playbook installs a H2O instance into a conda environment named keras_env. This has Jupyterlab installed and is accessible at port 80. 
 
 ## H20 GPU
 

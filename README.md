@@ -1,9 +1,11 @@
 
+** These instructions apply for a cloud instance, server or local machine which has a Ubuntu OS and the ssh user set to 'ubuntu'.** For other users, replace /home/ubuntu/ with /home/{USER} in the .yml files and the .conf files. Currently, the playbook is not setup to work on non-Ubuntu installations. 
+
 ## Ubuntu
 
 1. Edit the hosts file to add the IP address of your instance
 
-2. Assuming you have ansible installed and the cloud instance has ubuntu as the ssh user with install privileges, run the following:
+2. Assuming you have ansible installed and the cloud instance has ubuntu as the ssh user with install privileges, run the following from the ansible folder:
 
    ansible-playbook -i ./hosts cloud_h2o.yml
 

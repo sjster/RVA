@@ -1,5 +1,5 @@
 
-** These instructions apply for a cloud instance, server or local machine which has a Ubuntu OS and the ssh user set to 'ubuntu'.** For other users, replace /home/ubuntu/ with /home/{USER} in the .yml files and the .conf files. Currently, the playbook is not setup to work on non-Ubuntu installations. 
+**These instructions apply for a cloud instance, server or local machine which has a Ubuntu OS and the ssh user set to 'ubuntu'.** For other users, replace /home/ubuntu/ with /home/{USER} in the .yml files and the .conf files. Currently, the playbook is not setup to work on non-Ubuntu installations. 
 
 ## Ubuntu
 

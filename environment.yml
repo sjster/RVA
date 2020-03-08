@@ -1,9 +1,6 @@
 name: h2o
 channels:
-  - defaults
   - conda-forge
   - h2oai
 dependencies:
-  - h2o
-  - pandas 
-  - matplotlib 
+  - h2o=3.28.0.2

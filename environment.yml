@@ -2,7 +2,10 @@ name: h2o
 channels:
   - conda-forge
   - h2oai
+  - cyclus
 dependencies:
   - pip
+  - matplotlib
+  - java-jre
   - pip:
      - h2o

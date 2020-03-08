@@ -2,11 +2,10 @@ name: h2o
 channels:
   - defaults
   - conda-forge
+  - h2oai
 dependencies:
   - h2o 
   - pandas=0.24.1 
   - pyyaml=3.13 
   - scikit-learn=0.20.2 
   - matplotlib 
-  - jupyter 
-  - jupyterlab

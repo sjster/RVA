@@ -4,6 +4,6 @@ channels:
   - conda-forge
   - h2oai
 dependencies:
-  - h2o=3.28.0.2 
+  - h2o
   - pandas 
   - matplotlib 

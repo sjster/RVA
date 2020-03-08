@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - h2oai
 dependencies:
-  - h2o 
+  - h2o=3.28.0.2 
   - pandas=0.24.1 
   - pyyaml=3.13 
   - scikit-learn=0.20.2 
